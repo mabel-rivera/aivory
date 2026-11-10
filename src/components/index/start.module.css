@@ -1,0 +1,146 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("/images/fondo.png");
+    background-size: 100% 100%;
+    /*cover: ocupa toda la pantalla*/
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 30px !important;
+    border: none !important;
+    margin-right: 130px;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #244B5A;
+    margin-bottom: 0;
+}
+
+.title2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #579B80;
+    margin: 0;
+}
+
+.welcome-text p {
+    font-size: 13px;
+    color: #244B5A;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #579B80 !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+label {
+    color: #244B5A;
+}
+
+input {
+    border-radius: 15px !important;
+}
+
+:global(.form-control:focus) {
+    border-color: #579B80 !important;
+    box-shadow: 0 0 0 0.25rem rgba(124, 214, 174, 0.25) !important;
+    outline: none;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container .form-control {
+    padding-right: 40px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777;
+    font-size: 18px;
+}
+
+.remember {
+    font-size: 14px;
+    text-align: right;
+}
+
+.remember p {
+    margin-bottom: 20px;
+    color: #244B5A;
+    cursor: pointer;
+}
+
+.register-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-text p {
+    margin: 0;
+    color: #244B5A;
+}
+
+.register-text span {
+    color: #579B80;
+    font-weight: 640;
+    cursor: pointer;
+}
+
+.footer-login {
+    border-top: 1px solid #dce5df;
+    margin-top: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 11px;
+    color: #666;
+}
+
+.footer-info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-info i {
+    color: #579B80;
+    font-size: 13px;
+}
