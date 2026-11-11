@@ -14,8 +14,9 @@
 .card {
     border-radius: 30px !important;
     border: none !important;
-    margin-right: 130px;
-    height: 710px;
+    margin-right: 90px;
+    max-width: 100%;
+    width: 35rem;
 }
 
 .welcome-text {
